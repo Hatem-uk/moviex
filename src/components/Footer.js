@@ -1,14 +1,12 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className='text-center bg-neutral-600 bg-opacity-35 text-neutral-400 py-2'>
-        <div className='flex items-center justify-center gap-4'>
-          <Link to="/" >About</Link>
-          <Link to="/">Contact</Link>
+    <footer className='text-center bg-neutral-600 text-white bg-opacity-35 font-bold  py-2'>
+        <div className='flex items-center bg-orange-600 justify-center h-8 gap-4'>
+          <Link to="/" className='hover:text-xl hover:text-neutral-600'>About</Link>
+          <Link to="/" className='hover:text-xl hover:text-neutral-600'>Contact</Link>
         </div>
-        <p className='text-sm'>Created By Dynamic Coding with Amit</p>
     </footer>
   )
 }
