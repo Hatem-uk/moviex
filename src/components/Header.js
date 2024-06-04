@@ -24,11 +24,7 @@ const Header = () => {
   return (
     <header className='fixed top-0 w-full h-16 bg-black bg-opacity-50 z-40'>
             <div className='container mx-auto px-3 flex items-center h-full'>
-            <Link to="/">
-                <h1 className="text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600">
-                      Vodo.TV
-                  </h1>
-                </Link>
+           
 
                 <nav className='hidden lg:flex items-center gap-1 ml-5'>
                     {
