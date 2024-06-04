@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
-import userIcon from '../assets/user.png'
 import { IoSearchOutline } from "react-icons/io5";
 import { navigation } from '../contants/navigation';
 
@@ -53,12 +52,7 @@ const Header = () => {
                                 <IoSearchOutline/>
                         </button>
                     </form>
-                    <div className='w-8 h-8 rounded-full overflow-hidden cursor-pointer active:scale-50 transition-all'>
-                        <img
-                            src={userIcon}
-                            width='w-ful h-full' 
-                        />
-                    </div>
+                   
                 </div>
             </div>
     </header>
